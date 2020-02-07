@@ -6,7 +6,7 @@
 * Wesley Watkins
 * Antonio Vidal
 * Bradley Hodson
-* Michael Smith
+* Michael Styron
 * Grayson Wagstaff
 
 #### Current Sprint Status:
@@ -26,7 +26,7 @@ Sprint Number | Start Date | End Date | Status
 
 ###### ./project
  	+ contains main code within project
-	 + trunk considered here
+	+ trunk considered here
 
 
 ### Current GamePlay Rules & Usage:
