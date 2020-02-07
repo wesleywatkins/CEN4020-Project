@@ -1,7 +1,7 @@
 # CEN4020-Project
 
 ### Spring 2020
-### Professor: Chris Harris
+### Professor: Chris Mills
 ### Group Members:
 * Wesley Watkins
 * Antonio Vidal
