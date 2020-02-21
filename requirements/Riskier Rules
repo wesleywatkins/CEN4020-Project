@@ -1,0 +1,34 @@
+Grand Board
+•	Each player gets 1 turn split into 3 phases
+  o	Resource gathering/placement (name?)
+    Player gains X amount of units
+      •	Dependent on regions held + base amount
+        o	Ex: 3 (base) + 5 (region bonuses) = 8 total units
+    Player can place any number of available soldiers in any owned provinces
+      •	All in one province, one in all provinces, etc
+  o	Movement
+    Player can make X amount of move commands
+      •	Moves soldiers from one province to another
+  o	Owned-to-owned
+  o	Owned-to-enemy
+  o	Battle
+  	If the player moved any soldiers into enemy territory, battle triggers
+    •	Play transfers to the battle board/screen
+    •	Turn is over when all battles are resolved
+    • Moves on to next player
+Battle Board
+  •	When a province has two opposing armies present in it, a battle is triggered
+  •	Opposing players take turns issuing orders to their units on the board
+    o	Turn ends when all present units have acted
+    o	The attacking player (the one who moved soldiers into the region/the one who doesn’t own the territory) goes first
+    o	Either player can choose to flee on their turn
+      	If the attacker flees, the defender wins and keeps their territory
+      	If the defender wins, the attacker wins and takes the territory
+      	[How to deal with left-over units]
+  •	Remaining units return to player’s unit pool, or
+  •	Remaining units get redistributed to adjacent friendly territory (men running away)
+    o	Randomly distributed? Player choice?
+  •	The battle ends when:
+    o	One side has run out of units
+    o	One side decides to flee the battle
+  •	The winner gains or retains control of the region the battle took place in
