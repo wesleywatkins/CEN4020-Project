@@ -1,0 +1,22 @@
+This is the one of the ideas I have for how the AI could work.
+
+The AI will be used in 2 parts:
+
+- Game Board Decisions (moving troops, attacking, etc.)
+
+- Fighting (defend, attack, etc.)
+
+C# includes a way to run processes from within a program and read standard output. We can use this to our advantage in order to run the python scripts that will determine the move the AI deems optimal.
+
+In order for this to work, we will have to pass arguments to the python script that represent certain aspects relating to the current state of the game.
+
+For instance, for the fighting AI, we'd call the script like:
+
+python3 <PATH>/fight.py health enemy_health soldiers enemy_soliders
+
+Obviously we'd need more arguments, but this is just an example.
+
+Cons:
+- The user must have python3 installed on their system.
+- Along with installing python3, we will need to install certain packages used in the python scripts used to create the AI (numpy, tensorflow, etc.)
+- There are going to be a ton of arguments depending on how good we want the AI to be.

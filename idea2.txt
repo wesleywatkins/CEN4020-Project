@@ -1,0 +1,22 @@
+This is another idea I had for making the AI work.
+
+The AI will be used in 2 parts:
+
+- Game Board Decisions (moving troops, attacking, etc.)
+
+- Fighting (defend, attack, etc.)
+
+The AI could be set up on a web server and the game could make a GET request to the server sending information about the current state of the game and the API could return the best move based on those set up inputs.
+
+For example:
+
+GET http://888.888.888.888?health=50&enemyhealth=100
+
+^ These links may get long, but we can have a function that generates them. All we will have to do is pass the correct values to the function.
+
+Cons:
+- The user would have to be connected to the internet for the game to make use of the AI properly.
+
+Pros:
+- Avoids the user having to install python3 and a plethora of python packages in order for the game to run.
+- If we plan on adding networking later anyway, then this would be a good decision.
