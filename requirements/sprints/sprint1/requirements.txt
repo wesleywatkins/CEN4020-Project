@@ -1,0 +1,36 @@
+For the sprint between the dates of 2/21 to 3/13:
+
+Sprint Assignments:
+
+Wesley:
+	 - Create basic AI that is able to take input , process based on input,
+	 				then output a move based on the input
+
+	 - Review branch that is working on map/board for bugs/potential issues
+
+
+Antonio:
+ 	 - Finish Rules document (w/h Bradley)
+
+	 - Assist in designing entity class for board state/status
+
+	 - Design an control class for player moves/action
+
+Bradley:
+	 - Finish Rules document (w/h Antonio)
+
+	 - Design an entity class for board state/Status
+
+Michael:
+	 -  Review Rules for potential issues/logic holes
+
+	 - Assist in designing control and entity class, review for compatibility issues
+
+	 - Create basic graphics from prototype of map/player classes
+
+Grayson:
+	 - Review Rules for potential issues/logic holes
+
+	 - Project Management
+
+	 - Review Branches for issues before merging
